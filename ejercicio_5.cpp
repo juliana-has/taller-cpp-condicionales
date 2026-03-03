@@ -5,7 +5,7 @@ int main() {
 
 
     int nota;
-    cout << "Ingresar nota (0-100): ";
+    cout << "Ingrese la nota (0-100): ";
     cin >> nota;
 
 
@@ -25,10 +25,10 @@ int main() {
 
 
 
-    if (nota >= 60) estado = "Aprobado";
+    if (nota >= 60) estado = "muy bien, si pasas";
 
 
-    else estado = "Reprobado";
+    else estado = "re mal todo,a nivelatorios";
 
 
     cout << "Letra: " << letra << endl;
